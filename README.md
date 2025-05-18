@@ -39,10 +39,10 @@
 ### Ağaç görünümleri (Treeview) ile araç, müşteri ve kiralama listeleri gösteriliyor.
 
 ### Özetle, bu uygulama araç kiralama işlemlerini takip etmek, araç ve müşteri eklemek, kiralama işlemi yapmak ve iptal etmek için bir arayüz sunuyor ve verileri kalıcı şekilde JSON dosyasında saklıyor.
-
-
-
-
+### 
+### 
+### 
+### 
 
 
 
@@ -90,9 +90,10 @@
 ### Kullanıcıya hatalar veya başarı durumları mesaj kutuları ile bildiriliyor.
 
 ### Kısaca, kullanıcı yönetimi, kitap ve üye ekleme, ödünç alma/iade işlemleri yapabilen ve tüm verileri JSON dosyalarına kaydeden bir masaüstü kütüphane sistemi.
-
-
-
+### 
+### 
+### 
+### 
 
 
 ### Restoran Sipariş ve Yönetim Sistemi
@@ -128,9 +129,10 @@
 ### Açıldığında bu dosyadan otomatik olarak yüklenir.
 
 ### Bu Tkinter uygulaması, bir restoranın ürün ve sipariş yönetimini sağlar. Kullanıcı ürün ekleyebilir, sipariş oluşturabilir, siparişleri silebilir ve tüm veriler JSON dosyasında saklanır. Arayüz üzerinden işlemler kolayca yapılır ve veriler kalıcıdır.
-
-
-
+### 
+### 
+### 
+### 
 
 
 
