@@ -95,7 +95,7 @@
 
 
 
-### Kütüphane Yönetim Sistemi
+### Restoran Sipariş ve Yönetim Sistemi
 ### Genel Yapı:
 ### Arayüz Tkinter ve ttk bileşenleri ile tasarlanmış.
 
@@ -128,3 +128,75 @@
 ### Açıldığında bu dosyadan otomatik olarak yüklenir.
 
 ### Bu Tkinter uygulaması, bir restoranın ürün ve sipariş yönetimini sağlar. Kullanıcı ürün ekleyebilir, sipariş oluşturabilir, siparişleri silebilir ve tüm veriler JSON dosyasında saklanır. Arayüz üzerinden işlemler kolayca yapılır ve veriler kalıcıdır.
+
+
+
+
+
+
+### Yemek Tarif Uygulaması
+### Tkinter arayüzü kuruluyor:
+
+### Pencere başlığı, boyutu ve arka plan rengi ayarlanıyor.
+
+### Stil (font, buton, tab vb.) ayarları yapılıyor.
+
+### Veri yapıları tanımlanıyor:
+
+### Malzeme sınıfı: Tariflerdeki malzemeleri tutuyor (adı ve miktarı).
+
+### Tarif sınıfı: Tarifin adı, malzemeleri, içeriği ve puanları tutuluyor. Ortalama puan hesaplanabiliyor.
+
+### Veri dosyası (tarifler.json) ile veri kalıcılığı sağlanıyor:
+
+### Tarifler ve favoriler JSON formatında kaydedilip yükleniyor.
+
+### Arayüzde birden fazla sekme (tab) oluşturuluyor:
+
+### Tarif ekleme, tüm tarifler, favoriler, malzemeye göre filtreleme, en yüksek puanlılar ve tarif değerlendirme sekmeleri var.
+
+### Tarif ekleme sekmesi:
+
+### Kullanıcıdan tarif adı, malzemeler (satır satır malzeme, miktar formatında) ve tarif içeriği alınıyor.
+
+### Girilen bilgiler kontrol edilip, aynı isimde tarif varsa uyarı veriliyor.
+
+### Yeni tarif listeye ekleniyor ve veri kaydediliyor.
+
+### Tüm tariflerin listelendiği sekme:
+
+### Tarifler listeleniyor. Seçilen tarifin detayları (malzemeler, içerik, ortalama puan) gösteriliyor.
+
+### Tarif silme ve favorilere ekleme butonları var.
+
+### Favoriler sekmesi:
+
+### Favorilere eklenen tarifler listeleniyor.
+
+### Malzemeye göre filtreleme sekmesi:
+
+### Girilen malzeme adına göre tarifler filtreleniyor ve gösteriliyor.
+
+### En yüksek puanlı tariflerin listelendiği sekme:
+
+### Tarifler ortalama puanlarına göre sıralanıp listeleniyor.
+
+### Tarif değerlendirme sekmesi:
+
+### Listeden tarif seçip 1-5 arası puan verilebiliyor.
+
+### Verilen puan tarifin puan listesine ekleniyor, ortalama puan güncelleniyor.
+
+### Fonksiyonlar:
+
+### Tarif ekleme, silme, favorilere ekleme, filtreleme, puan verme gibi işlemler için fonksiyonlar tanımlanmış.
+
+### Arayüz öğeleri bu fonksiyonlarla bağlanmış.
+
+### Uygulama açıldığında:
+
+### JSON dosyasından veri yükleniyor.
+
+### Tarif, favori, puanlı ve değerlendirme listeleri güncelleniyor.
+
+### Özet: Kullanıcı dostu arayüzüyle, tarif ekleme, listeleme, filtreleme, favorilere ekleme ve puanlama işlemlerini kolayca yapmanı sağlayan bir tarif uygulaması.
