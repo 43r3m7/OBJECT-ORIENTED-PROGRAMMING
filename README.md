@@ -90,3 +90,41 @@
 ### Kullanıcıya hatalar veya başarı durumları mesaj kutuları ile bildiriliyor.
 
 ### Kısaca, kullanıcı yönetimi, kitap ve üye ekleme, ödünç alma/iade işlemleri yapabilen ve tüm verileri JSON dosyalarına kaydeden bir masaüstü kütüphane sistemi.
+
+
+
+
+
+### Kütüphane Yönetim Sistemi
+### Genel Yapı:
+### Arayüz Tkinter ve ttk bileşenleri ile tasarlanmış.
+
+### Görsel stil için özel renkler ve yazı tipleri ayarlanmış.
+
+### Veriler .json dosyasına kaydedilip geri yüklenebiliyor (kalıcılık sağlanmış).
+
+### Veri Yapıları:
+### Ürünler, Müşteriler ve Siparişler için ayrı sınıflar tanımlanmış (Urun, Musteri, Siparis).
+
+### Veriler bu sınıflarla oluşturuluyor ve bellekte sözlük/listelerde tutuluyor.
+
+### Arayüz Sekmeleri:
+### Uygulama iki ana sekmeden oluşuyor:
+
+### Ürün Yönetimi: Ürün ekleme, listeleme işlemleri yapılır.
+
+### Sipariş Al: Müşteri bilgisi girilir, ürün seçilir, sepete eklenir ve sipariş verilir.
+
+### Sipariş İşlemleri:
+### Siparişler ürün ve adet bilgisi ile sepete eklenir.
+
+### Toplam fiyat hesaplanır.
+
+### Siparişler siparisler listesine eklenir ve JSON’a kaydedilir.
+
+### Veri Kaydetme/Yükleme:
+### Uygulama kapandığında veriler .json dosyasına kaydedilir.
+
+### Açıldığında bu dosyadan otomatik olarak yüklenir.
+
+### Bu Tkinter uygulaması, bir restoranın ürün ve sipariş yönetimini sağlar. Kullanıcı ürün ekleyebilir, sipariş oluşturabilir, siparişleri silebilir ve tüm veriler JSON dosyasında saklanır. Arayüz üzerinden işlemler kolayca yapılır ve veriler kalıcıdır.
