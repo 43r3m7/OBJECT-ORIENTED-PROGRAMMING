@@ -202,3 +202,6 @@
 ### Tarif, favori, puanlı ve değerlendirme listeleri güncelleniyor.
 
 ### Özet: Kullanıcı dostu arayüzüyle, tarif ekleme, listeleme, filtreleme, favorilere ekleme ve puanlama işlemlerini kolayca yapmanı sağlayan bir tarif uygulaması.
+
+
+![Ekran Görüntüsü](images/1.png)
