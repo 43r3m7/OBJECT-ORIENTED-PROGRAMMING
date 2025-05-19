@@ -29,6 +29,8 @@ Kütüphaneler için geliştirilen bu sistem; kitapların, kullanıcıların ve 
 - Üye yönetimi
 - Kitap ödünç alma ve iade sistemi
 
+NOT: Kullanıcı adı "admin", şifre "admin123" girerek erişim sağlayabilirsiniz.
+
 🖼️ Görseller:
 ![1](images/kutuphane_ss/1.png)
 ![2](images/kutuphane_ss/2.png)
